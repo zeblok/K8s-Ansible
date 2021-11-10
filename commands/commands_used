@@ -1,0 +1,3 @@
+ansible-playbook -i new/hosts.ini users.yml
+ansible-playbook -i new/hosts.ini install-k8s.yml
+ansible-playbook -i new/hosts.ini master-node-setup.yml
