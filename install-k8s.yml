@@ -72,6 +72,5 @@
      - name: install kubernetes
        shell: |
                sudo apt-get update
-               K_VER="1.21.0-00"
-               sudo apt -y install vim git curl wget kubelet=${K_VER} kubectl=${K_VER} kubeadm=${K_VER}
+               sudo apt -y install vim git curl wget kubelet kubeadm kubectl
                sudo apt-mark hold kubelet kubeadm kubectl
